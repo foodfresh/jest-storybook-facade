@@ -16,6 +16,7 @@ import {
 } from 'storybook-addon-specifications';
 
 import expectReal from 'expect';
+import assert from 'assert';
 
 const storybook = {
   stories: {},
@@ -145,11 +146,11 @@ const expectNotMethods = [
 
 expectReal.extend({
   toMatchSnapshot() {
-    expectReal.assert(true, 'expected a snapshot', this.actual);
+    assert(true, 'expected a snapshot', this.actual);
     return this;
   },
   toBeCalled() {
-    expectReal.assert(true, 'expected to be called', this.actual);
+    assert(true, 'expected to be called', this.actual);
     return this;
   },
 });
