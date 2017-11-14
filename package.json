@@ -1,6 +1,6 @@
 {
   "name": "@foodfresh/jest-storybook-facade",
-  "version": "0.0.9",
+  "version": "0.0.10-alpha.2",
   "description": "Facades for Jest and Storybook so that your Jest tests become stories",
   "files": [
     "jest-facade.js",
@@ -10,6 +10,7 @@
     "storybook": "start-storybook -p 9001 -c storybook",
     "storybook:build": "rimraf distStoryBook && build-storybook -c storybook -o distStorybook",
     "build": "babel src -d ./",
+    "release": "yarn run build && yarn publish --access public",
     "cleanandbuild": "yarn run clean && yarn run build",
     "clean": "rm storybook-facade.js && rm jest-facade.js",
     "test": "jest"
@@ -41,12 +42,12 @@
     "expect": "^1.20.2",
     "jest": "^20.0.4",
     "json": "^9.0.4",
-    "react": "^15.4.2",
+    "react": "^16.1.1",
     "rimraf": "^2.6.0",
     "storybook-addon-specifications": "^2.1.1"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "16.x"
   },
   "jest": {
     "verbose": true,
