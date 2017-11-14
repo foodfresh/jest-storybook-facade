@@ -1,6 +1,6 @@
 {
   "name": "@foodfresh/jest-storybook-facade",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Facades for Jest and Storybook so that your Jest tests become stories",
   "files": [
     "jest-facade.js",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/faceyspacey/jest-storybook-facade.git"
+    "url": "git+https://github.com/foodfresh/jest-storybook-facade.git"
   },
   "author": "James Gillmore <james@faceyspacey.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/faceyspacey/jest-storybook-facade/issues"
+    "url": "https://github.com/foodfresh/jest-storybook-facade/issues"
   },
-  "homepage": "https://github.com/faceyspacey/jest-storybook-facade#readme",
+  "homepage": "https://github.com/foodfresh/jest-storybook-facade#readme",
   "devDependencies": {
     "@storybook/addon-info": "^3.2.9",
     "@storybook/addon-knobs": "^3.2.8",
