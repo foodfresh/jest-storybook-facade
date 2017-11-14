@@ -1,5 +1,5 @@
 {
-  "name": "jest-storybook-facade",
+  "name": "@foodfresh/jest-storybook-facade",
   "version": "0.0.8",
   "description": "Facades for Jest and Storybook so that your Jest tests become stories",
   "files": [
